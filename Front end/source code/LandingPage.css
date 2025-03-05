@@ -1,0 +1,63 @@
+.landing-container {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right side */
+  align-items: center; /* Center content vertically */
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/1600x900/?bus,city');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-right: 12%; /* Add padding to keep content away from the edge */
+}
+
+.content {
+  text-align: center; /* Center align the text */
+  background-color: rgba(26, 144, 46, 0.8); /* Slightly darker green for better contrast */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px; /* Restrict content width */
+}
+
+.content h1 {
+  font-size: 2rem; /* Adjust heading size */
+  margin: 0; /* Remove extra margin */
+  line-height: 1.2; /* Adjust line spacing to align content in a straight line */
+}
+
+.content p {
+  margin: 10px 0; /* Add uniform spacing */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.get-started-btn {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  background-color: #63ff9f; /* Custom green */
+  border: none;
+  width: 100%; /* Full-width button */
+  color: #000; /* Ensure text stands out */
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #caee4a; /* Slightly lighter green on hover */
+}
+
+.btn-link {
+  color: #d5ff63; /* Custom purple */
+  text-decoration: none;
+  
+}
+
+.btn-link:hover {
+  color: #4aeea4;
+  text-decoration: underline;
+}
+
+.background-color {
+  background-color: hwb(174 14% 19%); /* Light blue */
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: center;
+}

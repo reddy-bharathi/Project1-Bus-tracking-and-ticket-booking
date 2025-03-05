@@ -1,0 +1,144 @@
+
+  .results-page {
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding-top: 50px; /* Add space above */
+    text-align: center;
+    position: relative;
+}
+/* Style for the TicketPage container */
+.ticket-page {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 900px; /* Reduced width */
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .ticket-page h1 {
+    text-align: center;
+    font-size: 24px; /* Adjusted font size */
+    color: #333;
+    margin-bottom: 15px; /* Reduced margin */
+  }
+  
+  /* Ticket details styling */
+  .ticket-details {
+    background-color: #fff;
+    padding: 20px; /* Reduced padding */
+    margin-bottom: 20px; /* Reduced margin */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-details p {
+    font-size: 14px; /* Reduced font size */
+    color: #555;
+    margin: 6px 0;
+  }
+  
+  .ticket-details strong {
+    color: #333;
+  }
+  
+  /* Form Styling */
+  .ticket-form {
+    margin-bottom: 20px; /* Reduced margin */
+  }
+  
+  .ticket-form h2 {
+    font-size: 20px; /* Adjusted font size */
+    color: #1c90a4;
+    margin-bottom: 10px; /* Reduced margin */
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Reduced spacing between groups */
+  }
+  
+  .form-group label {
+    font-size: 14px; /* Adjusted label size */
+    color: #555;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .form-group select {
+    background-color: #ffffff;
+  }
+  
+  /* Button Styling */
+  .confirm-button {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    padding: 22px; /* Adjusted padding */
+    font-size: 16px; /* Adjusted font size */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .confirm-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .confirm-button:active {
+    background-color: #003f7d;
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 768px) {
+    .ticket-page {
+      padding: 15px;
+    }
+  
+    .ticket-details {
+      padding: 10px;
+    }
+  
+    .ticket-form h2 {
+      font-size: 18px;
+    }
+  
+    .form-group input,
+    .form-group select {
+      padding: 8px;
+      font-size: 12px;
+    }
+  
+    .confirm-button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

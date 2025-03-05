@@ -1,0 +1,63 @@
+.results-page {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding-top: 50px; /* Add space above */
+    text-align: center;
+    position: relative;
+}
+
+.page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Shadow for readability */
+}
+
+.buses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.bus-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black for contrast */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: #fff;
+    width: 250px; /* Fixed width for consistency */
+    margin: 10px;
+}
+
+.bus-card p {
+    margin: 5px 0;
+}
+
+.track-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.track-button:hover {
+    background-color: #0056b3;
+}
+
+.no-buses-text {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}

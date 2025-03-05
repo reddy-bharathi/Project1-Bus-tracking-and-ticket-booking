@@ -1,0 +1,461 @@
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+  }
+  
+  /* Banner styling */
+  .banner {
+    background-image: url('https://lirp.cdn-website.com/c561626a/dms3rep/multi/opt/-Banner-+Why+You+Need+a+Bus+Tracking+System-1920w.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner-buttons .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .banner-buttons .btn-light {
+    background-color: #ffffff;
+    color: #007bff;
+    border: none;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Adjust the margin to create spacing below the navbar */
+  }
+  
+  .page-image {
+    width: 100%;
+    height: 150%;
+    max-height: 610px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image scales proportionally */
+  }
+  
+  #feedback {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  #feedback h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #feedback p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  #contact {
+    padding: 50px 20px;
+    background-color: #e9f5ff;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  #contact strong {
+    color: #333;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .page-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .page-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00ff4c; /* Change this color to your preference */
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1.animated-text, p.animated-text {
+    font-weight: bold;
+    margin: 0;
+    opacity: 0; /* Start hidden */
+    animation: fadeInSlide 2s ease-out forwards;
+  }
+  
+  @keyframes fadeInSlide {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  .landing-container {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right side */
+    align-items: center; /* Center content vertically */
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-right: 12%; /* Add padding to keep content away from the edge */
+  }
+
+  /* Container for the image */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+}
+
+/* Styling for the image */
+.page-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Styling for the overlay text */
+.overlay-text {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position precisely to the center */
+  color: rgb(13, 168, 18);
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(109, 9, 9, 0.7); /* Add shadow for better visibility */
+  animation: fadeInSlide 2s ease-in-out; /* Animation effect */
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(20, 34, 228, 0.5); /* Semi-transparent background */
+  border-radius: 10px;
+}
+
+/* Animation for the text */
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%); /* Slightly above the center */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%); /* Back to center */
+  }
+}
+
+/* Add hover effect for dynamic interaction */
+.overlay-text:hover {
+  transform: translate(-50%, -50%) scale(1.1); /* Slight zoom on hover */
+  transition: transform 0.3s ease-in-out;
+}
+.section {
+  padding: 80px 40px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.section .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  text-align: center; /* Center text inside the card */
+  display: flex; /* Use Flexbox to center content */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  padding: 20px; /* Add padding inside the card */
+}
+
+.card .card-body {
+  flex: 1; /* Allow the body to grow and align properly */
+  display: flex; /* Flexbox for the card body */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.card button {
+  background-color: #004aad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Add spacing from other content */
+}
+
+.card button:hover {
+  background-color: #00337a; /* Darker blue on hover */
+  cursor: pointer;
+}
+.section {
+  padding: 80px 40px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.section .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #09adc0; /* Background color change */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Elevated shadow */
+}
+
+.card:hover .card-body {
+  color: #004aad; /* Change text color on hover */
+}
+
+.card .card-body {
+  padding: 20px;
+  transition: color 0.3s ease;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card .card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.card button {
+  background-color: #13ae42;
+  color: #f7f8f8;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #00337a; /* Darker blue on hover */
+  cursor: pointer;
+}
+
+.arrow-flow-section {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  font-size: 2.5em;
+  color: #007bff;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.flow-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.step {
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step h4 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #555;
+}
+/* Steps Section Styling */
+.steps-container {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.steps-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 800px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #007bff;
+  border-radius: 50%;
+  position: relative;
+  top: 8px;
+  margin-right: 20px;
+}
+
+.timeline-content {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.timeline-content h4 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  align-content: center;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 2px;
+  height: 100%;
+  background-color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .timeline-content {
+    text-align: center;
+  }
+
+  .timeline {
+    padding: 10px 0;
+  }
+}
