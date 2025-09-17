@@ -27,10 +27,6 @@ It is built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).
 ✔️ User authentication & session handling  
 ✔️ Admin module for managing buses, routes, and bookings  
 
----
+### 🏠 Home Page
+![Home Page](./screenshots/Screenshot 2025-09-17 093104.png)
 
-## 🚀 How to Run the Project
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your-username/bus-ticket-booking.git
-   cd bus-ticket-booking
