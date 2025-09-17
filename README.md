@@ -36,4 +36,5 @@ It is built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).
 ### 🔍 Login Page
 ![Login Page](login.png)
 
-
+### 🔍 Search Results
+![Search Page](screenshots/Screenshot%2025-09-17%093223.png)
