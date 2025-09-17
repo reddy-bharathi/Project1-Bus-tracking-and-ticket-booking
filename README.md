@@ -28,5 +28,5 @@ It is built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).
 ✔️ Admin module for managing buses, routes, and bookings  
 
 ### 🏠 Home Page
-![Home Page](./screenshots/Screenshot 2025-09-17 093104.png)
+![Home Page]("./screenshots/Screenshot 2025-09-17 093104.png")
 
